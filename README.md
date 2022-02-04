@@ -6,7 +6,7 @@ To create a metabolic model that operates on a 24 hour timeline (12 hours light,
 start with metabolic model of photosynthetic organism (e.g., _Rhodopseudomonas palustris_ https://www.biorxiv.org/content/10.1101/2021.09.07.459191v2.full)
 1. Create duplicates of the model (i.e., make copy it to model1 and model2)
 2. Set compartment id in model1 to c0
-3. Set compartment id in model2 to c00
+3. Set compartment id in model2 to c00 and external compartment to e2
 4. Run make_diurnal_model(model1, model2)
 
 Function returns diurnal_model.xml
